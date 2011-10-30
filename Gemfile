@@ -31,11 +31,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
+group :development,:test do
   # Pretty printed test output
   gem 'turn', :require => false
+  #gem 'sqllite3-rouby', :require => 'sqlite3'
 end
 
 group :production do
-  gem 'pg'
+  #gem 'pg'
 end
